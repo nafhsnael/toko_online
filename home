@@ -1,1 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        @font-face {
+            font-family: Playball ;
+            src: url(./font/Playball/Playball-Regular.ttf);
+        }
+        .hero-color{
+    background-color: pink;
+    height: 100%;
+}
 
+.fl-text{
+    border-color: pink;
+    font-size: 25px;
+    font-family: Playball;
+    font-weight: bold;
+}
+
+.ft-bg{
+    background-color: pink;
+}
+    </style>
+    
+</head>
+<body>
+    <?php
+    include "header.php";
+    ?>
+    <div class="container-fluid vw-100 m-0 p-0">
+        <section id="pengertian">
+            <!-- pengertian -->
+            <div class="w-95">
+            
+                <div class="w-100 d-flex flex-wrap justify-content-center align-items-center">
+                <!-- pengertian -->
+                    <div class="col-md-4 text-center py-4">
+                        <h1 class="ln-text" style="color: pink;">Neliolla</h1>
+                        <p> Neliolla merupakan destinasi belanja online terpercaya dan terlengkap di Indonesia yang menawarkan produk kecantikan autentik seperti tata rias, perawatan kulit, perawatan rambut, wewangian dan alat kecantikan yang melayani wanita di seluruh Indonesia.<p>
+                        <p>Kualitas dan keaslian produk kecantikan sama dengan pentingnya merawat kulit Anda sendiri, suatu keharusan bagi semua wanita dan Neliolla menanggapinya dengan sangat serius. Penggunaan produk kecantikan yang tidak asli atau palsu dapat menyebabkan kerusakan kulit permanen.</p>
+                        <p>Hal ini mendorong Neliolla untuk berkolaborasi langsung dengan distributor resmi nasional dan pemilik merek di Indonesia untuk memastikan bahwa setiap produk yang Anda beli dari Neliolla adalah asli dan autentik, dengan sertifikasi dari Badan Pengawas Obat dan Makanan ('BPOM').</p>
+                        <p>Jaminan kualitas penyimpanan produk dilakukan langsung oleh manajemen operasi Neliolla dengan kepatuhan terhadap standar internasional dan pedoman penyimpanan oleh pemilik merek.</p>
+                    </div>
+                    <!-- pengertian end -->
+        </section>
+
+    </div>
+    <?php
+    include "footer.php";
+    ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
