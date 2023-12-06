@@ -71,7 +71,8 @@ li.dropdown {
         <li><a href="bodycare.php">BODYCARE</a></li>
         <li><a href="haircare.php">HAIRCARE</a></li>
         <li><a href="makeup.php">MAKEUP</a></li>
-        <li><a href="gift">GIFT CARD</a></li>
+        <li><a href="login.php">Login</a></li>
+
           
           </ul>
         </div>
